@@ -1,0 +1,41 @@
+.bg{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  //background-image: url("https://img.17sucai.com/upload/55/2013-05-19/672faa193b52a51505d641027081f5b4.jpg?x-oss-process=style/big");
+  background-image: url("https://gw.alipayobjects.com/zos/rmsportal/TVYTbAXWheQpRcWDaDMu.svg");
+  //background-image: url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.yunxi10.com%2Fcode%2F5585%2Falbum%2F001.jpg&refer=http%3A%2F%2Fwww.yunxi10.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1617794182&t=d1696d419037ea70b707172463b4fab5");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.auth{
+  .title-info{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+    img{
+      width: 60px;
+      height: 60px;
+    }
+    h2{
+      margin: 0;
+      margin-left: 18px;
+    }
+  }
+  .form{
+    width: 400px;
+    margin: 0 auto;
+  }
+  .item{
+    margin-bottom: 16px;
+    button{
+      width: 100%;
+    }
+  }
+}
