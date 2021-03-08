@@ -6,6 +6,4 @@ export default defineComponent({
     LockOutlined,
     ContactsOutlined,
   },
-})
-
-;
+});
