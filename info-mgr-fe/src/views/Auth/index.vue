@@ -61,7 +61,7 @@
               </template>
             </a-input>
           </div>
-
+<!--qqqqqqqqqqqqqqqqq-->
           <div class="item">
             <a-button size="large" type="primary">注册</a-button>
           </div>
