@@ -1,0 +1,50 @@
+.basic-layout .app-header-placeholder {
+  height: 64px;
+  width: 100%; }
+.basic-layout .app-header {
+  height: 64px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 8px #f0f1f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  width: 100%;
+  z-index: 1; }
+  .basic-layout .app-header .left {
+    display: flex;
+    align-items: center; }
+  .basic-layout .app-header img {
+    height: 50px;
+    margin-right: 16px; }
+  .basic-layout .app-header .title {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 18px; }
+  .basic-layout .app-header .right {
+    display: flex;
+    align-items: center; }
+    .basic-layout .app-header .right .logout {
+      width: 80px;
+      text-align: center;
+      line-height: 64px;
+      cursor: pointer;
+      margin-left: 16px; }
+      .basic-layout .app-header .right .logout:hover {
+        background-color: #eee; }
+.basic-layout .app-content {
+  display: flex; }
+  .basic-layout .app-content .left {
+    width: 256px;
+    background-color: #bfa;
+    position: fixed;
+    top: 64px;
+    bottom: 0; }
+  .basic-layout .app-content .right {
+    flex: 1;
+    padding: 24px;
+    margin-left: 256px; }
+
+/*# sourceMappingURL=index.css.map */
