@@ -12,6 +12,7 @@ connect().then(()=>{
 
   registerRouter(app);
 
+
   app.listen(3000,()=>{
     console.log('启动成功')
   });
