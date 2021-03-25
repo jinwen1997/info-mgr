@@ -9,6 +9,7 @@ const defaultFormData = {
   author:'',
   publishDate:0,
   classify:'',
+  count:'',
 };
 export default defineComponent({
   props:{
@@ -21,12 +22,19 @@ export default defineComponent({
       const form = clone(addForm);
       form.publishDate = addForm.publishDate.valueOf();
       const res = await book.add(form);
+
+
+
+
       result(res)
         .success((d,{ data })=>{
           Object.assign(addForm,defaultFormData);
           message.success(data.msg);
 
       });
+
+
+
     };
     const close = ()=>{
       context.emit('update:show',false);
@@ -39,6 +47,7 @@ export default defineComponent({
     };
   },
 });
+
 
 
 
