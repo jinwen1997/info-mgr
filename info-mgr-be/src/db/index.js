@@ -1,6 +1,7 @@
 require('./Schemas/user');
 require('./Schemas/InviteCode');
 require('./Schemas/Book');
+require('./Schemas/InventoryLog');
 
 const mongoose = require('mongoose');
 

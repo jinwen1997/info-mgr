@@ -1,12 +1,12 @@
 <template>
-  <div class="space-between">
+  <div class="flex-end">
     <slot/>
   </div>
 </template>
 
 <style lang="scss" scoped>
-.space-between{
+.flex-end{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 </style>

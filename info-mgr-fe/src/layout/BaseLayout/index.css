@@ -38,8 +38,8 @@
   display: flex; }
   .basic-layout .app-content .left {
     width: 256px;
-    background-color: #bfa;
     position: fixed;
+    background-color: white;
     top: 64px;
     bottom: 0; }
   .basic-layout .app-content .right {

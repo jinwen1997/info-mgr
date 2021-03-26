@@ -23,7 +23,7 @@
 
 
 const mongoose = require('mongoose');
-const {getMate} = require('../helpers');
+const {getMeta,preSave} = require('../helpers');
 const BookSchema = new mongoose.Schema({
   name:String,
   price:Number,
@@ -34,8 +34,8 @@ const BookSchema = new mongoose.Schema({
   count:Number,
 
 
-  meta:getMate(),
+  meta:getMeta(),
 
 });
-
+BookSchema.pre('save',preSave);
 mongoose.model('Book',BookSchema);
