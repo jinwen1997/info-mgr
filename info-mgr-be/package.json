@@ -1,27 +1,34 @@
 {
-  "name": "info-mgr-be",
+  "name": "book-mgr-be",
   "version": "1.0.0",
   "description": "毕设项目的服务端",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "serve": "node src/index.js",
+    "start": "pm2 start npm --name book-mgr -- run serve",
+    "stop": "pm2 stop book-mgr"
   },
   "keywords": [
     "毕设"
   ],
-  "author": "金文韬",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "@koa/cors": "^3.1.0",
     "@koa/router": "^10.0.0",
     "jsonwebtoken": "^8.5.1",
-    "koa": "^2.13.1",
+    "koa": "^2.13.0",
     "koa-body": "^4.2.0",
-    "mongoose": "^5.11.18",
-    "uuid": "^8.3.2"
+    "koa-jwt": "^4.0.0",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.10.11",
+    "node-xlsx": "^0.15.0",
+    "pm2": "^4.5.0",
+    "uuid": "^8.3.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.6"
   }
 }

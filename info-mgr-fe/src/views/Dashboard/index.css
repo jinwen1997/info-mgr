@@ -1,0 +1,22 @@
+.list {
+  display: flex; }
+  .list .item {
+    flex: 1; }
+    .list .item .title {
+      color: #666; }
+    .list .item .count {
+      font-weight: 700;
+      color: black;
+      font-size: 20px; }
+
+.table-list {
+  margin-top: 24px;
+  display: flex; }
+  .table-list .left {
+    flex: 1;
+    margin-right: 12px; }
+  .table-list .right {
+    flex: 1;
+    margin-left: 12px; }
+
+/*# sourceMappingURL=index.css.map */

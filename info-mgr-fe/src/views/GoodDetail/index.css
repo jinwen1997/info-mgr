@@ -1,0 +1,17 @@
+.base-info .items {
+  display: flex;
+  margin-bottom: 16px; }
+  .base-info .items:last-child {
+    margin-bottom: 0; }
+  .base-info .items .item {
+    flex: 1;
+    display: flex; }
+    .base-info .items .item .title {
+      font-weight: 700;
+      color: rgba(0, 0, 0, 0.7);
+      min-width: 70px; }
+
+.log {
+  margin-top: 24px; }
+
+/*# sourceMappingURL=index.css.map */
