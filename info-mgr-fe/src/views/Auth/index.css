@@ -1,9 +1,9 @@
 .bg {
   position: fixed;
   left: 0;
-  bottom: 0;
   top: 0;
   right: 0;
+  bottom: 0;
   background-image: url("https://gw.alipayobjects.com/zos/rmsportal/TVYTbAXWheQpRcWDaDMu.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,9 +24,9 @@
 .auth .form {
   width: 400px;
   margin: 0 auto; }
-.auth .item {
-  margin-bottom: 16px; }
-  .auth .item button {
-    width: 100%; }
+  .auth .form .item {
+    margin-bottom: 16px; }
+    .auth .form .item button {
+      width: 100%; }
 
 /*# sourceMappingURL=index.css.map */

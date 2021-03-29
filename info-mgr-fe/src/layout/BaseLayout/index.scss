@@ -1,9 +1,9 @@
-.basic-layout{
-  .app-header-placeholder{
+.basic-layout {
+  .app-header-placeholder {
     height: 64px;
     width: 100%;
   }
-  .app-header{
+  .app-header {
     height: 64px;
     position: fixed;
     top: 0;
@@ -17,45 +17,52 @@
     width: 100%;
     z-index: 1;
 
-    .left{
+    .left {
       display: flex;
       align-items: center;
+
+      img {
+        height: 50px;
+        margin-right: 16px;
+      }
+
+      .title {
+        color: rgba(0,0,0,.87);
+        font-size: 18px;
+      }
     }
 
-    img{
-      height: 50px;
-      margin-right: 16px;
-    }
-    .title{
-      color: rgba(0,0,0,.87);
-      font-size: 18px;
-    }
-    .right{
+    .right {
       display: flex;
       align-items: center;
-      .logout{
+
+      .logout {
         width: 80px;
         text-align: center;
+        height: 64px;
         line-height: 64px;
         cursor: pointer;
         margin-left: 16px;
-        &:hover{
+
+        &:hover {
           background-color: #eee;
         }
       }
     }
   }
 
-  .app-content{
+  .app-content {
     display: flex;
-    .left{
+
+    .left {
       width: 256px;
       position: fixed;
       background-color: white;
       top: 64px;
       bottom: 0;
     }
-    .right{
+
+    .right {
       flex: 1;
       padding: 24px;
       margin-left: 256px;

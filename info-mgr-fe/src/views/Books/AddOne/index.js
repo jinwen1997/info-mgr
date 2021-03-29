@@ -16,7 +16,7 @@ export default defineComponent({
     show:Boolean,
   },
   setup(props,context){
-    console.log(props)
+    // console.log(props)
     const addForm = reactive(clone(defaultFormData));
     const submit = async ()=>{
       const form = clone(addForm);

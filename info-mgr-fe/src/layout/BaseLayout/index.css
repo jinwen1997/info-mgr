@@ -17,18 +17,19 @@
   .basic-layout .app-header .left {
     display: flex;
     align-items: center; }
-  .basic-layout .app-header img {
-    height: 50px;
-    margin-right: 16px; }
-  .basic-layout .app-header .title {
-    color: rgba(0, 0, 0, 0.87);
-    font-size: 18px; }
+    .basic-layout .app-header .left img {
+      height: 50px;
+      margin-right: 16px; }
+    .basic-layout .app-header .left .title {
+      color: rgba(0, 0, 0, 0.87);
+      font-size: 18px; }
   .basic-layout .app-header .right {
     display: flex;
     align-items: center; }
     .basic-layout .app-header .right .logout {
       width: 80px;
       text-align: center;
+      height: 64px;
       line-height: 64px;
       cursor: pointer;
       margin-left: 16px; }
