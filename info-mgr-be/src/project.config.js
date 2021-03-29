@@ -5,5 +5,5 @@ module.exports = {
   JWT_SECRET: 'good-mgr',
   UPLOAD_DIR: path.resolve(__dirname, '../upload'),
 
-  SERVER_PORT: 3000,
+  SERVER_PORT: 3001,
 };

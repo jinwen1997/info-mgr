@@ -3,7 +3,7 @@ const Koa = require('koa');
 const koaBody = require('koa-body');
 const { connect } = require('./db');
 const registerRoutes = require('./routers');
-// const koaStatic = require('koa-static');
+const koaStatic = require('koa-static');
 const { middleware: koaJwtMiddleware, checkUser, catchTokenError } = require('./helpers/token');
 const { logMiddleware } = require('./helpers/log');
 const cors = require('@koa/cors');
@@ -12,7 +12,7 @@ const config = require('./project.config');
 
 const app = new Koa();
 
-// app.use(koaStatic(path.resolve(__dirname, '../public')));
+app.use(koaStatic(path.resolve(__dirname, '../public')));
 
 connect().then(() => {
   app.use(cors());
